@@ -23,7 +23,6 @@ width : 54%;
     color: #fff;
     border-radius: 5px;
     padding: 20px;
-    order:1;
     font-size: 150%;
 }
 
@@ -33,13 +32,9 @@ width : 54%;
 }
 
 .box2{
-    order: 4;
+    order: 2;
 }
 
 .box1{
-  order: 3;
-}
-
-.box8{
-    order: 2;
+  order: 1;
 }
