@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+margin : 50px;
+border : 2px solid black;
+padding : 15px;
+width : 54%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    width: 600px;
+    gap: 10px;
+}
+
+.box{
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    order:1;
+    font-size: 150%;
+}
+
+.box:nth-child(even){
+    background-color: #ccc;
+    color: #000;
+}
+
+.box2{
+    order: 4;
+}
+
+.box1{
+  order: 3;
+}
+
+.box8{
+    order: 2;
+}
